@@ -301,6 +301,38 @@ body, input, select, textarea {
 	width: device-width;
 }
 
+/* @media screen and (max-width: 2560px) {
+	#logo {
+		width: 20%;
+		height: 350px;
+		margin: -5%;
+	}
+	#main {
+		height: 400px;
+	}
+	#Ptxt {
+		margin: 0px 30px 10px 0px;
+		width: 580px;
+		height: 80px;
+	}
+	#Ctxt {
+		margin: 0px 0px 10px 0px;
+		width: 595px;
+		height: 80px;
+	}
+	#clear {
+		margin-top: 15px;
+		margin-right: 5px;
+	}
+	#main {
+		height: 650px;
+	}
+	.K-area {
+		width: 100%;
+		margin-top: 0;
+	}
+} */
+
 @media screen and (max-width: 1680px) {
 	body, input, select, textarea {
 		font-size: 14pt;
@@ -521,7 +553,7 @@ body, input, select, textarea {
 		width: 420px;
 		height: 130px;
 	}
-	#clear{
+	#clear {
 		margin-top: 15px;
 		margin-right: 5px;
 	}
@@ -532,7 +564,6 @@ body, input, select, textarea {
 		width: 100%;
 		/* margin-top: 0; */
 	}
-
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -737,7 +768,7 @@ body, input, select, textarea {
 	}
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
 	#logo {
 		width: 35%;
 		height: 300px;
@@ -747,21 +778,21 @@ body, input, select, textarea {
 		height: 400px;
 	}
 	#Ptxt {
-		margin: 0px 10px 10px 0px;
+		margin: 0px 20px 10px 0px;
 		width: 380px;
-		height: 50px;
+		height: 80px;
 	}
 	#Ctxt {
-		margin: 0px 0px 0px 0px;
-		width: 380px;
-		height: 50px;
+		margin: 0px 0px 10px 0px;
+		width: 395px;
+		height: 80px;
 	}
-	#clear{
+	#clear {
 		margin-top: 15px;
 		margin-right: 5px;
 	}
 	#main {
-		height: 650px;
+		height: 500px;
 	}
 	.K-area {
 		width: 100%;
@@ -785,7 +816,7 @@ body, input, select, textarea {
 		width: 370px;
 		height: 50px;
 	}
-	#clear{
+	#clear {
 		margin-top: 15px;
 		margin-right: 5px;
 	}
@@ -1050,6 +1081,31 @@ body, input, select, textarea {
 	}
 }
 
+@media screen and (max-width: 768px) {
+	#logo {
+		width: 35%;
+		height: 250px;
+		margin: -11%;
+	}
+	#Ptxt {
+		margin: 0px 20px 10px 0px;
+		width: 250px;
+		height: 50px;
+	}
+	#Ctxt {
+		margin: 0px 10px 10px 0px;
+		width: 264px;
+		height: 50px;
+	}
+	#clear {
+		margin-top: 15px;
+		margin-right: 5px;
+	}
+	#main {
+		height: 550px;
+	}
+}
+
 @media screen and (max-width: 736px) {
 	#logo {
 		width: 35%;
@@ -1066,7 +1122,7 @@ body, input, select, textarea {
 		width: 510px;
 		height: 50px;
 	}
-	#clear{
+	#clear {
 		margin-top: 15px;
 		margin-right: 5px;
 	}
@@ -1376,14 +1432,13 @@ body, input, select, textarea {
 		width: 280px;
 		height: 50px;
 	}
-	#clear{
+	#clear {
 		margin-top: 13px;
 		margin-right: 5px;
 	}
 	#main {
 		height: 650px;
 	}
-
 	.row {
 		display: flex;
 		flex-wrap: wrap;
