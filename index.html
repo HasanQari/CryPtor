@@ -44,7 +44,8 @@
 							<p class="margin-0">This website is a Encryption Tool respect for requairement of
 								(Introduction in
 								Encryptography) Course</p>
-								<p style="margin: 0;">The tool accespt for <span style="color: red;">Arabic Language</span> only !</p>
+							<p style="margin: 0;">The tool accespt for <span style="color: red;">Arabic Language</span>
+								only !</p>
 
 						</header>
 
@@ -53,25 +54,32 @@
 							<p class="Text margin-0 float-left">Select the method of Encode</p>
 							<select id="selectedEncrpType" name="EncrpType">
 								<option value="none">Please Select One Encryption Type</option>
-								<option value="Caesar" onclick="DisplayOp1()">Shift Cipher (Basic Caesar Cipher)</option>
-								<option value="Monoalphabetic" onclick="DisplayOp2()">Monoalphabetic Cipher <span style="color: red;">*Comming
+								<option value="Caesar" onclick="DisplayOp1()">Shift Cipher (Basic Caesar Cipher)
+								</option>
+								<option value="Monoalphabetic" onclick="DisplayOp2()">Monoalphabetic Cipher <span
+										style="color: red;">*Comming
 										Soon!</span></option>
-								<option value="Vigenere" onclick="DisplayOp3()">Vigenere Cipher <span style="color: red;">*Comming Soon!</span>
+								<option value="Vigenere" onclick="DisplayOp3()">Vigenere Cipher <span
+										style="color: red;">*Comming Soon!</span>
 								</option>
 							</select>
 
 							<br>
 
-							<p class="margin-0 inline float-left">Enter Plain-Text:</p>
-							<p class="margin-0 inline">The Cipher-Text:</p><br>
+							<p class="margin-0 inline float-left">Enter Plain-Text:</p><br>
+							<textarea name="" id="Ptxt" cols="30" rows="10"
+								class="float-left txt-align-right"></textarea>
 
-							<textarea name="" id="Ptxt" cols="30" rows="10" class="float-left txt-align-right"></textarea>
-							<textarea name="" id="Ctxt" cols="30" rows="10" readonly class="float-left txt-align-right"></textarea>
+
+							<p id="C-lb" class="margin-0 inline float-left">The Cipher-Text:</p><br> 
+							<textarea name="" id="Ctxt" cols="30"
+								rows="10" readonly class="float-left txt-align-right"></textarea>
 
 							<p class="inline float-left margin23x10">Key:</p>
 							<input id="KEY" type="hidden" class="inline float-left K-area">
 
-							<button id="op1btn" onclick="runCipher()" class="button float-right margin-top15 Caesar">ENCODE</button>
+							<button id="op1btn" onclick="runCipher()"
+								class="button float-right margin-top15 Caesar">ENCODE</button>
 							<button id="op2btn" class="button float-right margin-top15 Monoalphabetic">ENCODE</button>
 							<button id="op3btn" class="button float-right margin-top15 Vigenere">ENCODE</button>
 
