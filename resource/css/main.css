@@ -511,6 +511,28 @@ body, input, select, textarea {
 		height: 300px;
 		margin: -10%;
 	}
+	#Ptxt {
+		margin: 0px 10px 10px 0px;
+		width: 420px;
+		height: 130px;
+	}
+	#Ctxt {
+		margin: 0px 10px 10px 0px;
+		width: 420px;
+		height: 130px;
+	}
+	#clear{
+		margin-top: 15px;
+		margin-right: 5px;
+	}
+	#main {
+		height: 550px;
+	}
+	.K-area {
+		width: 100%;
+		/* margin-top: 0; */
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -724,6 +746,27 @@ body, input, select, textarea {
 	#main {
 		height: 400px;
 	}
+	#Ptxt {
+		margin: 0px 10px 10px 0px;
+		width: 380px;
+		height: 50px;
+	}
+	#Ctxt {
+		margin: 0px 0px 0px 0px;
+		width: 380px;
+		height: 50px;
+	}
+	#clear{
+		margin-top: 15px;
+		margin-right: 5px;
+	}
+	#main {
+		height: 650px;
+	}
+	.K-area {
+		width: 100%;
+		margin-top: 0;
+	}
 }
 
 @media screen and (max-width: 980px) {
@@ -732,8 +775,26 @@ body, input, select, textarea {
 		height: 300px;
 		margin: -10%;
 	}
+	#Ptxt {
+		margin: 0px 10px 10px 0px;
+		width: 370px;
+		height: 50px;
+	}
+	#Ctxt {
+		margin: 0px 0px 0px 0px;
+		width: 370px;
+		height: 50px;
+	}
+	#clear{
+		margin-top: 15px;
+		margin-right: 5px;
+	}
 	#main {
-		height: 400px;
+		height: 650px;
+	}
+	.K-area {
+		width: 100%;
+		margin-top: 0;
 	}
 	.row {
 		display: flex;
@@ -995,8 +1056,22 @@ body, input, select, textarea {
 		height: 250px;
 		margin: -11%;
 	}
+	#Ptxt {
+		margin: 0px 10px 10px 0px;
+		width: 510px;
+		height: 50px;
+	}
+	#Ctxt {
+		margin: 0px 10px 0px 0px;
+		width: 510px;
+		height: 50px;
+	}
+	#clear{
+		margin-top: 15px;
+		margin-right: 5px;
+	}
 	#main {
-		height: 400px;
+		height: 550px;
 	}
 	h1 {
 		font-size: 2em;
@@ -1291,9 +1366,24 @@ body, input, select, textarea {
 		height: 300px;
 		margin: -22%;
 	}
-	#main {
-		height: 400px;
+	#Ptxt {
+		margin: 0px 40px 10px 0px;
+		width: 280px;
+		height: 50px;
 	}
+	#Ctxt {
+		margin: 0px 40px 0px 0px;
+		width: 280px;
+		height: 50px;
+	}
+	#clear{
+		margin-top: 13px;
+		margin-right: 5px;
+	}
+	#main {
+		height: 650px;
+	}
+
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -1544,8 +1634,24 @@ body, input, select, textarea {
 		margin: -22%;
 	}
 	.circles {
-		width: 120%;
-		height: 120%;
+		width: 125%;
+		height: 125%;
+	}
+	#Ptxt {
+		margin: 0px 40px 10px 0px;
+		width: 280px;
+		height: 80px;
+	}
+	#Ctxt {
+		margin: 0px 40px 0px 0px;
+		width: 280px;
+		height: 80px;
+	}
+	#clear {
+		margin: 14px;
+	}
+	#main {
+		height: 650px;
 	}
 }
 
@@ -1559,11 +1665,24 @@ body, input, select, textarea {
 		margin: -22%;
 	}
 	#main {
-		height: 600px;
+		height: 650px;
 	}
 	.circles {
 		width: 135%;
 		height: 135%;
+	}
+	#Ptxt {
+		margin: 0px 40px 10px 0px;
+		width: 280px;
+		height: 80px;
+	}
+	#Ctxt {
+		margin: 0px 40px 0px 0px;
+		width: 280px;
+		height: 80px;
+	}
+	#clear {
+		margin: 14px;
 	}
 	/* #header {
 		padding: 2.5em 1em 0.1em 1em;
@@ -1605,6 +1724,19 @@ body, input, select, textarea {
 	.circles {
 		width: 150%;
 		height: 150%;
+	}
+	#Ptxt {
+		margin: 0px 40px 10px 0px;
+		width: 280px;
+		height: 80px;
+	}
+	#Ctxt {
+		margin: 0px 40px 0px 0px;
+		width: 280px;
+		height: 80px;
+	}
+	#clear {
+		margin: 14px;
 	}
 }
 
