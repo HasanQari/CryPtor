@@ -1412,6 +1412,7 @@ body, input, select, textarea {
 		padding: 3em 2em 1em 2em;
 	}
 }
+
 @media screen and (max-width: 600px) {
 	body, input, select, textarea {
 		font-size: 11pt;
@@ -1442,6 +1443,38 @@ body, input, select, textarea {
 		height: 500px;
 	}
 }
+
+@media screen and (max-width: 580px) {
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+	#logo {
+		width: 50%;
+		height: 300px;
+		margin: -18%;
+	}
+	.circles {
+		width: 125%;
+		height: 125%;
+	}
+	#Ptxt {
+		margin: 0px 10px 10px 0px;
+		width: 185px;
+		height: 80px;
+	}
+	#Ctxt {
+		margin: 0px 10px 10px 0px;
+		width: 185px;
+		height: 80px;
+	}
+	#clear {
+		margin: 14px;
+	}
+	#main {
+		height: 500px;
+	}
+}
+
 @media screen and (max-width: 480px) {
 	html, body {
 		min-width: 480px;
@@ -1718,7 +1751,7 @@ body, input, select, textarea {
 		margin: -22%;
 	}
 	.circles {
-		width: 125%;
+		width: 120%;
 		height: 125%;
 	}
 	#Ptxt {
