@@ -1494,6 +1494,10 @@ body, input, select, textarea {
 		width: 280px;
 		height: 50px;
 	}
+	.circles {
+		width: 100%;
+		height: 125%;
+	}
 	#clear {
 		margin-top: 13px;
 		margin-right: 5px;
