@@ -295,7 +295,7 @@ body, input, select, textarea {
 	line-height: 1.65;
 }
 
-/* Responsive Section */
+/*************************** Responsive Section ****************************/
 
 @-ms-viewport {
 	width: device-width;
@@ -344,7 +344,7 @@ body, input, select, textarea {
 		margin: -8%;
 	}
 	#main {
-		height: 570px;
+		height: 590px;
 	}
 	#C-lb {
 		margin-top: -30px;

@@ -116,8 +116,8 @@
 	}
 
 	// Scrolly.
-	$('.scrolly').scrolly({
-		speed: 1000
-	});
+	// $('.scrolly').scrolly({
+	// 	speed: 1000
+	// });
 
 })(jQuery);
