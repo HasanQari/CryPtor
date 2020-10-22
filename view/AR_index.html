@@ -1,18 +1,18 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="ar">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<!-- Title -->
-	<title>CryPtor</title>
+	<title>CryPtor AR</title>
 
 	<!-- icon -->
-	<link rel="icon" href="resource/images/icon.png">
+	<link rel="icon" href="../resource/images/icon.png">
 
 	<!-- Style Sheet -->
-	<link rel="stylesheet" href="resource/css/main.css" />
+	<link rel="stylesheet" href="../resource/css/main.css" />
 	<style>
 
 	</style>
@@ -27,7 +27,7 @@
 		<div id="header" class="alt">
 
 			<!-- LOGO -->
-			<img id="logo" src="resource/images/logo.jpg" alt="CryPtor LOGO" style="color: wheat;">
+			<img id="logo" src="../resource/images/logo.jpg" alt="CryPtor LOGO" style="color: wheat;">
 
 			<!-- Main -->
 			<div id="main" class="FRONT">
@@ -40,18 +40,16 @@
 						<header class="major" style="margin: 0;">
 
 							<!-- Wlcome Message -->
-							<h2>Welcome To Encrption World</h2>
-							<p class="margin-0">This website is a Encryption Tool respect for requairement of
-								(Introduction in
-								Encryptography) Course</p>
-							<p style="margin: 0;">The tool accespt for <span style="color: red;">Arabic Language</span>
-								only ! to visite Arabic page <a href="view/AR_index.html">Click Here</a></p>
+							<h2 style="letter-spacing:0">أهلا بك في عالم التشفير</h2>
+							<p style="letter-spacing:0" class="margin-0">هذه المنصة هي أداة تشفير تلبي متطلب مشروع مقرر ( مقدمة في التشفير )</p>
+							<p style="margin: 0;letter-spacing:0;">صممت هذه الأداة <span style="color: red;letter-spacing:5;font-weight: bold;"">_ للغة العربية _</span>
+								فقط ,لعرض الصفحة باللغة الإنجليزية >><a href="../index.html"> اضغط هنا</a> </p>
 
 						</header>
 						<br>
 						<!-- input data area -->
 						<div>
-							<p class="Text margin-0 float-left">Select the method of Encode</p>
+							<p class="Text margin-0" style="float: right;letter-spacing: 5;">اختر طريقة التشفير</p>
 							<select id="selectedEncrpType" name="EncrpType">
 								<option value="none">Please Select One Encryption Type</option>
 								<option value="Caesar" onclick="DisplayOp1()">Shift Cipher (Basic Caesar Cipher)</option>
@@ -61,23 +59,23 @@
 
 							<br>
 
-							<p class="margin-0 inline float-left">Enter Plain-Text:</p><br>
+							<p class="margin-0 inline float-left" style="margin-left:350px;">النص الأصلي</p><br>
 							<textarea name="" id="Ptxt" cols="30" rows="10"
 								class="float-left txt-align-right"></textarea>
 
 
-							<p id="C-lb" class="margin-0 inline float-left">The Cipher-Text:</p><br>
+							<p id="C-lb" class="margin-0 inline float-left" style="margin-left:370px;">النص المشفر</p><br>
 							<textarea name="" id="Ctxt" cols="30" rows="10" readonly
 								class="float-left txt-align-right"></textarea>
 
-							<p class="inline float-left margin23x10">Key:</p>
+							<p class="inline float-left margin23x10">المفتاح</p>
 							<input id="KEY" type="hidden" class="inline float-left K-area">
 
-							<button id="op1btn" onclick="shiftCipher()" class="button float-right margin-top15 Caesar">ENCODE</button>
-							<button id="op2btn" onclick="MonoCipher()"  class="button float-right margin-top15 Monoalphabetic">ENCODE</button>
-							<button id="op3btn" onclick="VigCipher()"   class="button float-right margin-top15 Vigenere">ENCODE</button>
+							<button id="op1btn" onclick="shiftCipher()" class="button float-right margin-top15 Caesar">شفر</button>
+							<button id="op2btn" onclick="MonoCipher()"  class="button float-right margin-top15 Monoalphabetic">شفر</button>
+							<button id="op3btn" onclick="VigCipher()"   class="button float-right margin-top15 Vigenere">شفر</button>
 
-							<button id="clear" class=" float-right margin-top15" onclick="history.go(0)">CLEAR</button>
+							<button id="clear" class=" float-right margin-top15" onclick="history.go(0)">اعادة الضبط</button>
 
 						</div>
 					</div>
@@ -114,10 +112,10 @@
 	</ul>
 
 	<!-- Scripts -->
-	<script src="resource/js/jquery.min.js"></script>
-	<script src="resource/js/breakpoints.min.js"></script>
-	<script src="resource/js/main.js"></script>
-	<script src="resource/js/JSFunctions.js"></script>
+	<script src="../resource/js/jquery.min.js"></script>
+	<script src="../resource/js/breakpoints.min.js"></script>
+	<script src="../resource/js/main.js"></script>
+	<script src="../resource/js/JSFunctions.js"></script>
 
 </body>
 
