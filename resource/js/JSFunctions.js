@@ -130,7 +130,7 @@ function MonoCipher() {
             CtxtArr[k] = shuffledArr[Arabic_Alphabets_Arr.indexOf(CtxtArr[k])];
     }
     // store the result from mono. cipher to var.
-    var cipherText = document.getElementById("Ctxt").innerHTML = CtxtArr.join().replace(/,/g, '') + "\n-------------\n:هذا الترتيب الأساسي للأحرف المخزن في الأداة" + "\n" + Arabic_Alphabets_arr.join().replace(/,/g, ' ');
+    var cipherText = document.getElementById("Ctxt").value = CtxtArr.join().replace(/,/g, '') + "\n-------------\n:هذا الترتيب الأساسي للأحرف المخزن في الأداة" + "\n" + Arabic_Alphabets_Arr.join().replace(/,/g, ' ');
     console.log(cipherText); // print to the console for check and test
 }
 
